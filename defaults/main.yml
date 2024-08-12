@@ -10,11 +10,11 @@ install_rust: true
 
 # Solana variables
 
-solana_installer_version: v1.10.38
+solana_installer_version: v1.18.21
 
 solana_version: stable
 
-solana_source_version: v1.10.38
+solana_source_version: v1.18.21
 
 solana_root: /solana
 
@@ -61,7 +61,7 @@ solana_account_index: program-id spl-token-owner spl-token-mint
 
 solana_bigtable_enabled: false
 
-solana_network: mainnet
+solana_network: devnet
 
 solana_enabled_services:
   - solana-rpc

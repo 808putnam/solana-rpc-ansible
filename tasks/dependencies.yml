@@ -1,6 +1,8 @@
+# https://github.com/anza-xyz/agave
 - name: install dependencies
   apt:
-    pkg: ['libssl-dev', 'libudev-dev', 'pkg-config', 'zlib1g-dev', 'llvm', 'clang', 'make', 'git', 'acl']
+    pkg: ['libssl-dev', 'libudev-dev', 'pkg-config', 'zlib1g-dev', 'llvm', 'clang',  'cmake', 'make', 'libprotobuf-dev', 'protobuf-compiler', 'git', 'acl']
+    # pkg: ['libssl-dev', 'libudev-dev', 'pkg-config', 'zlib1g-dev', 'llvm', 'clang', 'make', 'git', 'acl']
     state: present
 
 - name: install linux kernel tools
